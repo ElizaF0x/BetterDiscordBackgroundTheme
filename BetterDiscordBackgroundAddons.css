@@ -100,6 +100,17 @@
 	--elevation-high: 0 2px 10px 0 rgba(var(--transparencycolor), .3);
 	--font-primary: var(--font) !important;
 	--font-display: var(--font) !important;
+      --profile-gradient-primary-color: unset !important; 
+      --profile-gradient-secondary-color: unset !important;
+      --profile-gradient-button-color: unset !important;
+      --profile-gradient-overlay-color: unset !important;
+      --profile-body-background-hover: unset !important;
+      --profile-body-divider-color: unset !important;
+      --profile-avatar-border-color: unset !important;
+      --profile-message-input-border-color: unset !important;
+      --profile-note-background-color: unset !important;
+      --profile-role-pill-background-color: unset !important;
+      --profile-role-pill-border-color: unset !important;
 }
 
 html {
@@ -1883,6 +1894,10 @@ button.button__4f306.enabled__470f0:hover svg {
 
 
 /* ~~~~		7.		PEOPLES							~~~~ */
+
+.actionButton-iarQTd {
+	background-color: rgba(var(--accentcolor)) !important;   /* peoples              add friend/message button           */
+}
 
 .addFriendInputWrapper__4bf8e {								/* peoples				add friend							*/
 	background-color: rgba(var(--transparencycolor), .1);
