@@ -4089,11 +4089,11 @@ button.button__4f306.enabled__470f0:hover svg {
 	background-color: rgba(var(--transparencycolor), calc(var(--transparencyalpha) + 0.25)) !important;
 	backdrop-filter: blur(var(--popoutblur)) !important;
 }
-.userProfileOuterThemed__6eb84 {							/* popout				container							*/
+.userProfileOuterThemed__6eb84 .userPopoutOuter_d739b2 .wrapper_edb6e0 {							/* popout				container							*/
 	background: transparent !important;
 }
-.userProfileOuterThemed__6eb84::before,
-.userProfileOuterThemed__6eb84::after {
+.userProfileOuterThemed__6eb84 .userPopoutOuter_d739b2 .wrapper_edb6e0::before,
+.userProfileOuterThemed__6eb84 .userPopoutOuter_d739b2 .wrapper_edb6e0::after {
 	content: "" !important;
 	position: absolute !important;
 	top: 0 !important;
@@ -4106,11 +4106,11 @@ button.button__4f306.enabled__470f0:hover svg {
 	pointer-events: none !important;
 	z-index: -1 !important;
 }
-.userProfileOuterThemed__6eb84::before {
+.userProfileOuterThemed__6eb84 .userPopoutOuter_d739b2 .wrapper_edb6e0::before {
 	background: var(--popout) var(--popoutposition)/var(--popoutsize) !important;
 	background-attachment: fixed !important;
 }
-.userProfileOuterThemed__6eb84::after {
+.userProfileOuterThemed__6eb84 .userPopoutOuter_d739b2 .wrapper_edb6e0::after {
 	background-color: rgba(var(--transparencycolor), calc(var(--transparencyalpha) + 0.25)) !important;
 	backdrop-filter: blur(var(--popoutblur)) !important;
 }
