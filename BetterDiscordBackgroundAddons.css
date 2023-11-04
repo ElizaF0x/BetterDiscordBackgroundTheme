@@ -4081,13 +4081,13 @@ button.button__4f306.enabled__470f0:hover svg {
 	height: 120px;
 }
 .userProfileInner__8065b {									/* popout				inner								*/
-	border-radius: 4px;
+	background: var(--popout) var(--popoutposition)/var(--popoutsize) !important;
+	background-attachment: fixed !important;
 }
 .userPopoutOuter_d739b2 .wrapper_edb6e0,					/* popout				avatar								*/
 .userPopoutOuter_d739b2 .avatarWrapper {					/* popout				status everywhere					*/
-	background-color: transparent;
-	border-color: transparent;
-	box-sizing: content-box;
+	background-color: rgba(var(--transparencycolor), calc(var(--transparencyalpha) + 0.25)) !important;
+	backdrop-filter: blur(var(--popoutblur)) !important;
 }
 
 .root_a99273 {												/* body					roles								*/
