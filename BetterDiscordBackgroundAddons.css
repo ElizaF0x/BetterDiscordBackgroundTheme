@@ -4089,7 +4089,31 @@ button.button__4f306.enabled__470f0:hover svg {
 	background-color: rgba(var(--transparencycolor), calc(var(--transparencyalpha) + 0.25)) !important;
 	backdrop-filter: blur(var(--popoutblur)) !important;
 }
-
+.userProfileOuterThemed__6eb84 {							/* popout				container							*/
+	background: transparent !important;
+}
+.userProfileOuterThemed__6eb84::before,
+.userProfileOuterThemed__6eb84::after {
+	content: "" !important;
+	position: absolute !important;
+	top: 0 !important;
+	bottom: 0 !important;
+	right: 0 !important;
+	left: 0 !important;
+	width: unset !important;
+	height: unset !important;
+	border-radius: 5px !important;
+	pointer-events: none !important;
+	z-index: -1 !important;
+}
+.userProfileOuterThemed__6eb84::before {
+	background: var(--popout) var(--popoutposition)/var(--popoutsize) !important;
+	background-attachment: fixed !important;
+}
+.userProfileOuterThemed__6eb84::after {
+	background-color: rgba(var(--transparencycolor), calc(var(--transparencyalpha) + 0.25)) !important;
+	backdrop-filter: blur(var(--popoutblur)) !important;
+}
 .root_a99273 {												/* body					roles								*/
 	max-height: 100px;
 	overflow-x: hidden;
